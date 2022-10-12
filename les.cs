@@ -43,9 +43,9 @@ Console.Write("Введите номер строки числа: ");
 int k = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите номер столбца числа: ");
 int t = Convert.ToInt32(Console.ReadLine());
-if(k < m) 
+if(k <= m) 
 {
-    if(t < n)
+    if(t <= n)
     {
     Console.WriteLine(table[k - 1,t - 1]);
     }
